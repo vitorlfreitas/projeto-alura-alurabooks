@@ -1,0 +1,125 @@
+.topicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1em 0em;
+}
+.topicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+
+}
+.topicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.topicos__item {
+    margin: 2em 0.5em;
+}
+.topicos__link {
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+    padding: 1em;
+    text-decoration: none;
+}
+.topicos__link:hover {
+    background: var(--azul-degrade);
+    color: var(--branco);
+    box-shadow: 0px 0px 10px 0px var(--branco);
+}
+@media screen and (max-width: 350px) {
+    .topicos {
+        padding: 2em 1em;
+    }
+    .topicos__item {
+        margin: 1em;
+    }
+    .topicos__link {
+        padding: 0.6em;
+    }
+    .topicos__item:nth-child(1) {
+        order: 1;
+    }
+    .topicos__item:nth-child(2) {
+        order: 3;
+    }
+    .topicos__item:nth-child(3) {
+        order: 4;
+    }
+    .topicos__item:nth-child(4) {
+        order: 5;
+    }
+    .topicos__item:nth-child(5) {
+        order: 6;
+    }
+    .topicos__item:nth-child(6) {
+        display: none;
+    }
+    .topicos__item:nth-child(7) {
+        order: 1;
+    }
+    .topicos__item:nth-child(8) {
+        order: 8;
+    }
+
+
+
+
+}
+@media screen and (min-width: 600px) {
+    .topicos {
+        padding: 2em 15vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .topicos__titulo,
+    .topicos__link {
+        font-size: 24px;
+    }
+    .topicos__lista {
+        gap: 10px;
+    }
+    .topicos {
+        padding: 3em 15vw;
+    }
+}
+@media screen and (min-width: 1728px)
+{
+    .topicos {
+        padding: 3em 25vw;
+    }
+    .topicos__titulo {
+        margin-bottom: 2em;
+    }
+    .topicos__lista {
+        justify-content: center;
+    }
+    .topicos__item:nth-child(1) {
+        order: 1;
+    }
+    .topicos__item:nth-child(2) {
+        order: 3;
+    }
+    .topicos__item:nth-child(3) {
+        order: 4;
+    }
+    .topicos__item:nth-child(4) {
+        order: 5;
+    }
+    .topicos__item:nth-child(5) {
+        order: 6;
+    }
+    .topicos__item:nth-child(6) {
+        order: 7;
+    }
+    .topicos__item:nth-child(7) {
+        order: 2;
+    }
+    .topicos__item:nth-child(8) {
+        order: 8;
+    }
+}

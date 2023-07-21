@@ -1,0 +1,35 @@
+@import url("../css/header.css");
+@import url("../css/banner.css");
+@import url("../css/carrossel.css");
+@import url("../css/topicos.css");
+@import url("../css/contato.css");
+@import url("../css/rodape.css");
+
+:root {
+    /* Colors */
+    --cor-de-fundo: #ebecee;
+    --branco: #fff;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+    --azul-escuro: #002F52;
+    --descricao-texto: rgba(0, 0, 0, 0.85);
+    --preto: #000;
+    --titulo-rodape: #858585;
+    --item-rodape: #474646;
+    --purple: #002F52;
+    --azul-clarinho: #6783e9;
+    --cor-clarinha: #c6d2ff;
+    /* Fonts */
+    --font-principal: 'Poppins', sans-serif;
+    --font-secundaria: 'Josefin Sans', sans-serif;
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+a:hover {
+    color: var(--laranja);
+}
